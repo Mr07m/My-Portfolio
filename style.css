@@ -15,7 +15,7 @@ a{
 }
 
 header{
-    background-color: hsl(324, 13%, 8%);
+    background-image: url(./dark-bg.jpg);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
@@ -52,22 +52,19 @@ header ul li a:hover{
 
 #about{
     height: 950px;
-    background-color: #fbc3c3;
+    background-image: url(./org-2.jpg);
     /* padding: 10px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-/* .about_heading{
-    margin-top:10px;
-} */
+
 .about_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin-top: 30px;
     height: 550px;
 }
 
@@ -77,8 +74,7 @@ header ul li a:hover{
     margin-left: 30px;
 }
 #home{
-    height: 900px;
-    margin-top: 30px;
+    height: 650px;
 }
 .buttons{
     display:flex;
@@ -101,24 +97,20 @@ header ul li a:hover{
     display: flex;
     justify-content: space-evenly;
     gap: 5px;
-    margin: 20px;
     align-items: center;
     height: 700px;
+    background-image: url(./org-3.jpg);
 }
 
 .container .my_profile img{
     width: 350px;
-    margin-top: 60px;
     border-radius: 1rem;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7);
 }
 .container .my_profile img:hover{
     transition: .5s ease;
 }
-.content{
-    margin-left: 10px;
 
-}
 .content .title{
     color: hsl(60, 20%, 1%);
    text-shadow: 2px 2px 6px rgb(236, 236, 37);
@@ -126,7 +118,7 @@ header ul li a:hover{
 
 
 #para{
-    color: rgb(130, 123, 123);
+    color: hsl(60, 20%, 1%);
     font-size: 15px;
 }
 .icons{
@@ -147,57 +139,109 @@ header ul li a:hover{
 }
 
 #contact{
-    /* background-color: #f0b2b2; */
-    padding:  60px;
     display: flex;
     justify-content: center;
-    background-color: #f7d8d8;
-    height: 650px;
     align-items: center;
+    padding:  60px;
+    background-image: url(./org-1.jpg);
+    height: 650px;
+}
+
+.my_info{
+    height: 350px;
+    width: 380px;
+}
+.my_info center h1{
+    margin-bottom: 20px;
 }
 .contact_me{
-    background-color: #f16666;
-    height: 420px;
-    width: 650px;
-    margin: 40px 20px;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 520px;
+    width: 1150px;
+
+}
+.connetc_us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    margin-top: 20px;
+}
+.connetc_us li {
+    margin: 10px 20px;
+    font-size: 18px;
+
+}
+.connetc_us li a{
+    color: black;
+    padding: 10px;
+}
+
+.connetc_us li a:hover{
+    background-color: #df1391;
+    padding: 10px;
     border-radius: 2rem;
+    transition: .5s ease;
 }
-.feedback{
-    margin-top: 20px;
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    width: 480px;
+}
+
+form input{
     border: none;
-    width: 80%;
-    padding: 10px;
-    border-radius: 1rem;
+    padding: 20px;
+    font-size: 18px;
     outline: none;
     box-shadow: 0px 0px 5px rgba(9, 9, 9, 0.8);
-}
-#addr{
     margin-top: 20px;
-    border: none;
-    padding: 10px;
-    width: 80%;
+    width: 100%;
     border-radius: 1rem;
+
+}
+
+form textarea{
+    border: none;
+    padding: 20px;
+    font-size: 18px;
     outline: none;
     box-shadow: 0px 0px 5px rgba(9, 9, 9, 0.8);
+    margin-top: 20px;
+    width: 480px;
+    border-radius: 1rem;
+
 }
+
 
 #btn{
     margin-top: 20px;
     border: none;
     padding: 10px 40px;
     border-radius: 2rem;
-    box-shadow: 0px 0px 5px rgba(9, 9, 9, 0.8);
-    background-color: #f8f8f8;
+    box-shadow: 0px 0px 5px rgba(9, 9, 9, 0.6);
     cursor: pointer;
 
+}
+#btn:hover{
+    box-shadow: 0px 0px 5px rgba(9, 9, 9, 0.9);
+    background-color: #ea09aa;
 }
 .heading{
     margin-top: 10px;
 }
 
 #service{
-    height: 900px;
-    padding: 100px;
+    height: 650px;
+    padding: 90px;
+    background-image: url(./org-1.jpg);
 }
 .my_service{
     display: flex;
